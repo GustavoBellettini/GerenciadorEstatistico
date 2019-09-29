@@ -1,0 +1,126 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Cadastrar Jogador
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page9">
+  <ion-card>
+    <ion-card-header>
+      Cadastro de Jogador
+    </ion-card-header>
+    <ion-card-content>
+      Realize o cadastro de um novo jogador, inserindo seus dados abaixo.
+    </ion-card-content>
+  </ion-card>
+  <form id="cadastrarJogador-form4">
+    <ion-item id="cadastrarJogador-input8">
+      <ion-label stacked>
+        Nome Completo:
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item id="cadastrarJogador-input9">
+      <ion-label stacked>
+        Apelido:
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item id="cadastrarJogador-input10">
+      <ion-label stacked>
+        Data de Nascimento:
+      </ion-label>
+      <ion-datetime displayFormat="DD MM YYYY"></ion-datetime>
+    </ion-item>
+    <ion-item id="cadastrarJogador-input11">
+      <ion-label stacked>
+        Altura
+      </ion-label>
+      <ion-input type="text" placeholder="Centímetros"></ion-input>
+    </ion-item>
+    <ion-item id="cadastrarJogador-select1">
+      <ion-label stacked>
+        Posição
+      </ion-label>
+      <ion-select name="">
+        <ion-option>
+          Goleiro
+        </ion-option>
+        <ion-option>
+          Zagueiro
+        </ion-option>
+        <ion-option>
+          Lateral Direito
+        </ion-option>
+        <ion-option>
+          Lateral Esquerdo
+        </ion-option>
+        <ion-option>
+          Volante
+        </ion-option>
+        <ion-option>
+          Segundo Volante
+        </ion-option>
+        <ion-option>
+          Meia-Atacante
+        </ion-option>
+        <ion-option>
+          Segundo Atacante
+        </ion-option>
+        <ion-option>
+          Ponta Direita
+        </ion-option>
+        <ion-option>
+          Ponta Esquerda
+        </ion-option>
+        <ion-option>
+          Centroavante
+        </ion-option>
+        <ion-option>
+          Atacante
+        </ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item id="cadastrarJogador-select2">
+      <ion-label stacked>
+        Pé Preferido
+      </ion-label>
+      <ion-select name="">
+        <ion-option>
+          Direito
+        </ion-option>
+        <ion-option>
+          Esquerdo
+        </ion-option>
+        <ion-option>
+          Ambidestro
+        </ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item id="cadastrarJogador-toggle3">
+      <ion-label stacked>
+        Possui Equipe?
+      </ion-label>
+      <ion-toggle color="positive" checked="false"></ion-toggle>
+    </ion-item>
+    <ion-item id="cadastrarJogador-select3">
+      <ion-label stacked>
+        Equipe
+      </ion-label>
+      <ion-select name=""></ion-select>
+    </ion-item>
+    <button id="cadastrarJogador-button9" ion-button color="positive" round full style="font-weight:500;font-size:20px;text-transform: none">
+      Cadastrar
+    </button>
+    <button id="cadastrarJogador-button10" ion-button color="positive" round full style="font-weight:500;font-size:20px;">
+      Limpar
+    </button>
+    <button id="cadastrarJogador-button11" ion-button color="positive" round full style="font-weight:500;font-size:20px;" on-click="goToJogador()">
+      Voltar
+    </button>
+  </form>
+</ion-content>

@@ -1,16 +1,37 @@
+import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ErrorHandler, NgModule } from '@angular/core';
-import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-import { SplashScreen } from '@ionic-native/splash-screen';
-import { StatusBar } from '@ionic-native/status-bar';
-
+import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
+import { InicioPage } from '../pages/inicio/inicio';
+import { JogadorPage } from '../pages/jogador/jogador';
+import { SaudePage } from '../pages/saude/saude';
+import { EquipePage } from '../pages/equipe/equipe';
+import { EstatisticasPage } from '../pages/estatisticas/estatisticas';
+import { LoginPage } from '../pages/login/login';
+import { ContaPage } from '../pages/conta/conta';
+import { CadastrarJogadorPage } from '../pages/cadastrar-jogador/cadastrar-jogador';
+import { CadastrarEquipePage } from '../pages/cadastrar-equipe/cadastrar-equipe';
+import { PesquisarJogadorPage } from '../pages/pesquisar-jogador/pesquisar-jogador';
+import { CadastrarEstatisticasPage } from '../pages/cadastrar-estatisticas/cadastrar-estatisticas';
+
+
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    InicioPage,
+    JogadorPage,
+    SaudePage,
+    EquipePage,
+    EstatisticasPage,
+    LoginPage,
+    ContaPage,
+    CadastrarJogadorPage,
+    CadastrarEquipePage,
+    PesquisarJogadorPage,
+    CadastrarEstatisticasPage
   ],
   imports: [
     BrowserModule,
@@ -19,7 +40,17 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    InicioPage,
+    JogadorPage,
+    SaudePage,
+    EquipePage,
+    EstatisticasPage,
+    LoginPage,
+    ContaPage,
+    CadastrarJogadorPage,
+    CadastrarEquipePage,
+    PesquisarJogadorPage,
+    CadastrarEstatisticasPage
   ],
   providers: [
     StatusBar,

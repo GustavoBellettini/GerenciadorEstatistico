@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Cadastrar Equipe
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page10">
+    <ion-card>
+        <ion-card-header>
+          Cadastro de Equipe
+        </ion-card-header>
+        <ion-card-content>
+          Realize o cadastro de uma nova equipe, inserindo seus dados abaixo.
+        </ion-card-content>
+      </ion-card>
+  <form id="cadastrarEquipe-form5">
+    <ion-item id="cadastrarEquipe-input13">
+      <ion-label stacked>
+        Nome:
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item id="cadastrarEquipe-input14">
+      <ion-label stacked>
+        Sigla:
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item id="cadastrarEquipe-input15">
+      <ion-label stacked>
+        Treinador:
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <div class="spacer" style="height:35px;" id="spacer-equipe"></div>
+    <ion-list id="cadastrarEquipe-list4">
+      <ion-item-divider color="light" id="cadastrarEquipe-list-item-divider1">
+        Jogadores:
+      </ion-item-divider>
+      <ion-item color="none" id="cadastrarEquipe-list-item9">
+      </ion-item>
+      <ion-item color="none" id="cadastrarEquipe-list-item10">
+      </ion-item>
+      <ion-item color="none" id="cadastrarEquipe-list-item11">
+      </ion-item>
+    </ion-list>
+    <button id="cadastrarEquipe-button18" ion-button color="positive" round full style="font-weight:500;font-size:20px;">
+      Cadastrar
+    </button>
+    <button id="cadastrarEquipe-button28" ion-button color="positive" round full style="font-weight:500;font-size:20px;">
+      Limpar
+    </button>
+    <button id="cadastrarEquipe-button29" ion-button color="positive" round full style="font-weight:500;font-size:20px;" on-click="goToEquipe()">
+      Voltar
+    </button>
+  </form>
+</ion-content>
